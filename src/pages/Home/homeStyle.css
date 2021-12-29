@@ -2,4 +2,8 @@ h1 {
   font-family: "Spartan", sans-serif;
   font-variation-settings: "wght" var(--global-font-H1-axis-weight);
 }
+h2 {
+  font-family: "Spartan", sans-serif;
+  font-variation-settings: "wght" var(--global-font-H1-axis-weight);
+}
 /* var(--global-font-H1-axis-weight) */

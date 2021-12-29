@@ -17,6 +17,8 @@ function Home() {
         min="100"
         max="900"
       />
+      <h2>this is my portfolio</h2>
+      <div className="draws"></div>
     </>
   );
 }
