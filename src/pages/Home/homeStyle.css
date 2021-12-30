@@ -1,0 +1,23 @@
+h1 {
+  position: absolute;
+  font-size: 120px;
+  z-index: 50;
+}
+.boxColor {
+  position: absolute;
+  z-index: 100;
+  min-height: 600px;
+  min-width: 600px;
+  border: violet;
+  border-radius: 50%;
+  backdrop-filter: invert(100%);
+}
+.getmousePos {
+  position: absolute;
+  z-index: 0;
+  height: 100%;
+  width: 100%;
+  top: 0px;
+  left: 0px;
+  background-color: rgb(173, 238, 130);
+}
