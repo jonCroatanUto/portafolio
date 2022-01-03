@@ -1,29 +1,53 @@
 .menu {
-  width: 100%;
+  position: absolute;
+  width: 70%;
   display: grid;
-  grid-template-columns: 50% 50%;
+  grid-template-columns: 0.6fr 1fr;
+  left: 25%;
+  top: 15%;
 }
 .FullStackDeveloper {
   display: grid;
   grid-template-rows: 1fr 1fr;
 }
-.FullStackDeveloper h1 {
+.fullStack {
   font-family: "Big Shoulders Display";
-  font-size: 120px;
+  font-size: 200px;
+  margin: 0px;
+  grid-auto-columns: min-content;
+  font-weight: 100;
 }
 .motionGraphics h1 {
-  font-family: "Lemonada", cursive;
+  font-family: "Lemonada";
+
   font-size: 50px;
+  margin: 0px;
+  grid-auto-columns: min-content;
+  font-weight: 100;
 }
 .contact h1 {
   font-family: "Bodoni Moda", serif;
-  font-size: 70px;
+  font-size: 90px;
+  margin: 0px;
+  grid-auto-columns: min-content;
+  width: 100%;
+  font-weight: 100;
 }
 .motionGraphics {
+  justify-self: center;
   display: grid;
   grid-template-rows: 1fr 1fr 1fr;
+  width: 100%;
 }
 .me h1 {
   font-family: "Roboto Mono", monospace;
-  font-size: 70px;
+  font-size: 90px;
+  grid-auto-columns: min-content;
+  margin: 0px;
+  font-weight: 100;
+}
+.me {
+  justify-self: end;
+  margin-right: 40px;
+  grid-auto-rows: minmax(min-content, max-content);
 }

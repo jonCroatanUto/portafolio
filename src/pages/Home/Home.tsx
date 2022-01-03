@@ -4,8 +4,8 @@ function Home() {
   return (
     <div className="menu">
       <div className="FullStackDeveloper">
-        <h1>FULL STACK </h1>
-        <h1>DEVELOPER </h1>
+        <h1 className="fullStack">FULLSTACK </h1>
+        <h1 className="fullStack">DEVELOPER </h1>
       </div>
       <div className="motionGraphics">
         <h1>MOTION</h1>
