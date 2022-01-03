@@ -1,0 +1,26 @@
+.menu {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.FullStackDeveloper {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+}
+.FullStackDeveloper h1 {
+  font-size: 90px;
+  min-width: 90%;
+}
+.motionGraphics h1 {
+  font-size: 50px;
+}
+.foundMe h1 {
+  font-size: 70px;
+}
+.motionGraphics {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+.me h1 {
+  font-size: 70px;
+}
