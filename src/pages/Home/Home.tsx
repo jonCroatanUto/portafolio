@@ -12,11 +12,11 @@ function Home() {
         <h1>GRAPHICS </h1>
         <h1>DESIGNER </h1>
       </div>
-      <div className="foundMe">
-        <h1>CONTACT </h1>
-      </div>
       <div className="me">
         <h1>ABOUT ME </h1>
+      </div>
+      <div className="contact">
+        <h1>CONTACT </h1>
       </div>
     </div>
   );

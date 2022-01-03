@@ -1,20 +1,22 @@
 .menu {
   width: 100%;
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 50% 50%;
 }
 .FullStackDeveloper {
   display: grid;
   grid-template-rows: 1fr 1fr;
 }
 .FullStackDeveloper h1 {
-  font-size: 90px;
-  min-width: 90%;
+  font-family: "Big Shoulders Display";
+  font-size: 120px;
 }
 .motionGraphics h1 {
+  font-family: "Lemonada", cursive;
   font-size: 50px;
 }
-.foundMe h1 {
+.contact h1 {
+  font-family: "Bodoni Moda", serif;
   font-size: 70px;
 }
 .motionGraphics {
@@ -22,5 +24,6 @@
   grid-template-rows: 1fr 1fr 1fr;
 }
 .me h1 {
+  font-family: "Roboto Mono", monospace;
   font-size: 70px;
 }
