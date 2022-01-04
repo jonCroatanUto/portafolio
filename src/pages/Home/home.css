@@ -10,20 +10,21 @@
   display: grid;
   grid-template-rows: 1fr 1fr;
 }
-.fullStack {
+.FullStackDeveloper h1 {
   font-family: "Big Shoulders Display";
   font-size: 200px;
   margin: 0px;
   grid-auto-columns: min-content;
-  font-weight: 100;
+  font-weight: var(--full-stack-font-H1-axis-weight);
 }
+
 .motionGraphics h1 {
   font-family: "Lemonada";
 
   font-size: 50px;
   margin: 0px;
   grid-auto-columns: min-content;
-  font-weight: 100;
+  font-weight: var(--animation-design-font-H1-axis-weight);
 }
 .contact h1 {
   font-family: "Bodoni Moda", serif;
@@ -31,7 +32,7 @@
   margin: 0px;
   grid-auto-columns: min-content;
   width: 100%;
-  font-weight: 100;
+  font-weight: var(--contact-stack-font-H1-axis-weight);
 }
 .motionGraphics {
   justify-self: center;
@@ -44,7 +45,7 @@
   font-size: 90px;
   grid-auto-columns: min-content;
   margin: 0px;
-  font-weight: 100;
+  font-weight: var(--me-stack-font-H1-axis-weight);
 }
 .me {
   justify-self: end;
