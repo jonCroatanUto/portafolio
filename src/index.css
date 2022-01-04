@@ -16,11 +16,11 @@ code {
   --global-font-family: Verdana, sans-serif;
   --global-font-p-size: 12px;
   --global-font-h1-size: 80px;
-  --global-font-H1-axis-weight: 200;
-  --full-stack-font-H1-axis-weight: 200;
-  --animation-design-font-H1-axis-weight: 200;
-  --contact-stack-font-H1-axis-weight: 200;
-  --me-stack-font-H1-axis-weight: 200;
+  --global-font-H1-axis-weight: 100;
+  --full-stack-font-H1-axis-weight: 100;
+  --animation-design-font-H1-axis-weight: 100;
+  --contact-stack-font-H1-axis-weight: 100;
+  --me-stack-font-H1-axis-weight: 100;
 
   --global-text-color: rgb(0, 0, 0);
   --global-primary-title-size: 2rem;
