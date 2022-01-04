@@ -1,16 +1,40 @@
-import React from "react";
+import React, { useState } from "react";
 import "./homeMenu.css";
 
 function HomeMenu() {
-  let fullStackClass = "fullStack";
+  const [menuClassName, setMenuClassName] = useState("menu");
+  const [isHide, setIsHide] = useState(true);
+  const globalCSSvariables = document.body.style;
+
   function hover(globalVariable: string, value: string) {
-    let fontWeigth = document.body.style;
-    fontWeigth.setProperty(globalVariable, value);
-    // fullStackClass = "FullStackDeveloperAnimation";
+    globalCSSvariables.setProperty(globalVariable, value);
+  }
+  function navBarMenu() {
+    globalCSSvariables.setProperty("--full-stack-font-H1-font-size", "70px");
+    globalCSSvariables.setProperty(
+      "--animation-design-font-H1-font-size",
+      "25px"
+    );
+    globalCSSvariables.setProperty("--contact-stack-font-H1-font-size", "45px");
+    globalCSSvariables.setProperty("--me-stack-font-H1-font-size", "45px");
+    setIsHide(false);
+    setMenuClassName("navBarMenu");
+  }
+  function backMainMenu() {
+    globalCSSvariables.setProperty("--full-stack-font-H1-font-size", "200px");
+    globalCSSvariables.setProperty(
+      "--animation-design-font-H1-font-size",
+      "50px"
+    );
+    globalCSSvariables.setProperty("--contact-stack-font-H1-font-size", "90px");
+    globalCSSvariables.setProperty("--me-stack-font-H1-font-size", "90px");
+    setIsHide(true);
+    setMenuClassName("menu");
   }
   return (
-    <div className="menu">
+    <div className={menuClassName}>
       <div
+        onClick={() => navBarMenu()}
         onMouseOver={() => hover("--full-stack-font-H1-axis-weight", "700")}
         onMouseOut={() => hover("--full-stack-font-H1-axis-weight", "100")}
         className="FullStackDeveloper"
@@ -44,6 +68,13 @@ function HomeMenu() {
         className="contact"
       >
         <h1>CONTACT </h1>
+      </div>
+      <div
+        onClick={backMainMenu}
+        style={{ display: isHide === true ? "none" : "block" }}
+        className="menuBack"
+      >
+        <h1>back</h1>
       </div>
     </div>
   );

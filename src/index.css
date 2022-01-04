@@ -22,6 +22,10 @@ code {
   --animation-design-font-H1-axis-weight: 100;
   --contact-stack-font-H1-axis-weight: 100;
   --me-stack-font-H1-axis-weight: 100;
+  --full-stack-font-H1-font-size: 200px;
+  --animation-design-font-H1-font-size: 50px;
+  --contact-stack-font-H1-font-size: 90px;
+  --me-stack-font-H1-font-size: 90px;
 
   --global-text-color: rgb(0, 0, 0);
   --global-primary-title-size: 2rem;
