@@ -10,22 +10,35 @@
   display: grid;
   grid-template-rows: 1fr 1fr;
 }
+/* .FullStackDeveloperAnimation{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    animation-name: ;
+
+} */
 .FullStackDeveloper h1 {
   font-family: "Big Shoulders Display";
   font-size: 200px;
   margin: 0px;
   grid-auto-columns: min-content;
   font-weight: var(--full-stack-font-H1-axis-weight);
+  transition: 0.3s ease-out;
+  cursor: pointer;
 }
+/* @keyframes fullstackHover{
+    0% {}
+  } */
 
 .motionGraphics h1 {
   font-family: "Lemonada";
-
   font-size: 50px;
   margin: 0px;
   grid-auto-columns: min-content;
   font-weight: var(--animation-design-font-H1-axis-weight);
+  transition: 0.3s ease-out;
+  cursor: pointer;
 }
+
 .contact h1 {
   font-family: "Bodoni Moda", serif;
   font-size: 90px;
@@ -33,6 +46,8 @@
   grid-auto-columns: min-content;
   width: 100%;
   font-weight: var(--contact-stack-font-H1-axis-weight);
+  transition: 0.3s ease-out;
+  cursor: pointer;
 }
 .motionGraphics {
   justify-self: center;
@@ -41,14 +56,14 @@
   width: 100%;
 }
 .me h1 {
-  font-family: "Roboto Mono", monospace;
+  font-family: "Open Sans", sans-serif;
   font-size: 90px;
   grid-auto-columns: min-content;
   margin: 0px;
   font-weight: var(--me-stack-font-H1-axis-weight);
+  transition: 0.3s ease-out;
+  cursor: pointer;
 }
 .me {
-  justify-self: end;
-  margin-right: 40px;
   grid-auto-rows: minmax(min-content, max-content);
 }
