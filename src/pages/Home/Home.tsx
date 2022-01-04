@@ -1,8 +1,9 @@
 import React from "react";
 
-import HomeMenu from "../../components/HomeMenu";
+// import HomeMenu from "../../components/HomeMenu";
 
 function Home() {
-  return <HomeMenu />;
+  return <div>Hi I'm Home</div>;
+  // return <HomeMenu />;
 }
 export default Home;
