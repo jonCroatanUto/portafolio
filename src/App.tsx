@@ -3,11 +3,23 @@ import logo from "./logo.svg";
 import "./App.css";
 import { Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
+import FullStack from "./pages/FullStack";
+import AnimationDesign from "./pages/AnimationDesign";
+import AboutME from "./pages/AboutME";
+import Contact from "./pages/Contact";
+import HomeMenu from "./components/HomeMenu";
 function App() {
   return (
-    <Routes>
-      <Route path="/" element={<Home />} />
-    </Routes>
+    <>
+      <HomeMenu />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/fullStack" element={<FullStack />} />
+        <Route path="/animationDesign" element={<AnimationDesign />} />
+        <Route path="/aboutME" element={<AboutME />} />
+        <Route path="/contact" element={<Contact />} />
+      </Routes>
+    </>
   );
 }
 
