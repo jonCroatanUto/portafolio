@@ -49,8 +49,6 @@
   margin: 0px;
   grid-auto-columns: min-content;
   font-weight: var(--animation-design-font-H1-axis-weight);
-  transition: 0.3s ease-out;
-  cursor: pointer;
 }
 
 .contact h1 {
@@ -60,8 +58,6 @@
   grid-auto-columns: min-content;
   width: 100%;
   font-weight: var(--contact-stack-font-H1-axis-weight);
-  transition: 0.3s ease-out;
-  cursor: pointer;
 }
 .motionGraphics {
   justify-self: center;
@@ -75,8 +71,6 @@
   grid-auto-columns: min-content;
   margin: 0px;
   font-weight: var(--me-stack-font-H1-axis-weight);
-  transition: 0.3s ease-out;
-  cursor: pointer;
 }
 .me {
   grid-auto-rows: minmax(min-content, max-content);

@@ -13,6 +13,10 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+h1 {
+  transition: 0.3s ease-out;
+  cursor: pointer;
+}
 :root {
   --global-font-family: Verdana, sans-serif;
   --global-font-p-size: 12px;
@@ -31,10 +35,10 @@ code {
 
   /* about me font opacity */
   --Growth-opacity-value: 0.5;
-  --Resarcher-opacity-value: 0.9;
-  --Team-building-opacity-value: 0.8;
-  --Comunication-opacity-value: 0.8;
-  --Creativity-opacity-value: 0.9;
+  --Resarcher-opacity-value: 0.5;
+  --Team-building-opacity-value: 0.5;
+  --Comunication-opacity-value: 0.5;
+  --Creativity-opacity-value: 0.5;
   --Self-learning-opacity-value: 0.5;
   --Active-listening-opacity-value: 0.5;
   --SCRUM-opacity-value: 0.5;
@@ -53,31 +57,31 @@ code {
   --HEROKU-opacity-value: 0.5;
 
   /* about me font size */
-  --Growth-font-size-value: 100px;
-  --Resarcher-font-size-value: 100px;
-  --Team-building-font-size-value: 100px;
-  --Comunication-font-size-value: 100px;
-  --Creativity-font-size-value: 100px;
-  --Self-learning-font-size-value: 100px;
-  --Active-listening-font-size-value: 100px;
-  --SCRUM-font-size-value: 100px;
-  --Github-font-size-value: 100px;
-  --Github-projects-font-size-value: 100px;
-  --NPM-font-size-value: 100px;
-  --Node-font-size-value: 100px;
-  --React-font-size-value: 100px;
-  --Bootstrap-font-size-value: 100px;
-  --REDUX-font-size-value: 100px;
-  --MongoDB-font-size-value: 100px;
-  --PHP-font-size-value: 100px;
-  --mySQL-font-size-value: 100px;
-  --Express-font-size-value: 100px;
-  --NETLIFY-font-size-value: 100px;
-  --HEROKU-font-size-value: 100px;
+  --Growth-font-size-value: 50px;
+  --Resarcher-font-size-value: 50px;
+  --Team-building-font-size-value: 40px;
+  --Comunication-font-size-value: 40px;
+  --Creativity-font-size-value: 40px;
+  --Self-learning-font-size-value: 40px;
+  --Active-listening-font-size-value: 40px;
+  --SCRUM-font-size-value: 40px;
+  --Github-font-size-value: 40px;
+  --Github-projects-font-size-value: 40px;
+  --NPM-font-size-value: 40px;
+  --Node-font-size-value: 40px;
+  --React-font-size-value: 40px;
+  --Bootstrap-font-size-value: 40px;
+  --REDUX-font-size-value: 40px;
+  --MongoDB-font-size-value: 40px;
+  --PHP-font-size-value: 40px;
+  --mySQL-font-size-value: 40px;
+  --Express-font-size-value: 40px;
+  --NETLIFY-font-size-value: 40px;
+  --HEROKU-font-size-value: 40px;
 
   /* about me font weight */
-  --Growth-font-weight-value: 100;
-  --Resarcher-font-weight-value: 100;
+  --Growth-font-weight-value: 300;
+  --Resarcher-font-weight-value: 300;
   --Team-building-font-weight-value: 100;
   --Comunication-font-weight-value: 100;
   --Creativity-font-weight-value: 100;
@@ -91,10 +95,10 @@ code {
   --React-font-weight-value: 100;
   --Bootstrap-font-weight-value: 100;
   --REDUX-font-weight-value: 100;
-  --MongoDB-font-weight-value: 100;
+  --MongoDB-font-weight-value: 300;
   --PHP-font-weight-value: 100;
   --mySQL-font-weight-value: 100;
   --Express-font-weight-value: 100;
-  --NETLIFY-font-weight-value: 100;
+  --NETLIFY-font-weight-value: 300;
   --HEROKU-font-weight-value: 100;
 }

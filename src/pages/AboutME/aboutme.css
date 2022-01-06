@@ -86,7 +86,8 @@
   justify-self: center;
   font-family: "Bodoni Moda", serif;
   margin: 10px;
-  font-weight: var();
+  letter-spacing: 50px;
+  font-weight: var(--Comunication-font-weight-value);
   font-size: var(--Comunication-font-size-value);
   color: #f38f10;
   opacity: var(--Comunication-opacity-value);
@@ -165,6 +166,7 @@
   justify-self: center;
   font-family: "Bodoni Moda", serif;
   margin: 10px;
+  letter-spacing: 30px;
   font-weight: var(--Node-font-weight-value);
   font-size: var(--Node-font-size-value);
   opacity: var(--Node-opacity-value);
@@ -192,6 +194,7 @@
   justify-self: end;
   font-family: "Bodoni Moda", serif;
   margin: 10px;
+  letter-spacing: 30px;
   font-weight: var(--REDUX-font-weight-value);
   font-size: var(--REDUX-font-size-value);
   opacity: var(--REDUX-opacity-value);
