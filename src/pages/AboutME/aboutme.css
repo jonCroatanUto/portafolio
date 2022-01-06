@@ -50,140 +50,204 @@
 .keyWords9 {
   display: grid;
   grid-template-columns: 1fr;
+  font-weight: 100;
 }
 
 /* asign difirent types */
 
 .keyWords1 h1:nth-child(1) {
-  color: white;
   justify-self: center;
   font-family: "Josefin Slab", serif;
-  margin: 0px;
+  margin: 10px;
+  font-weight: var(--Growth-font-weight-value);
+  font-size: var(--Growth-font-size-value);
+  color: #f38f10;
+  opacity: var(--Growth-opacity-value);
 }
 .keyWords2 h1:nth-child(1) {
-  color: white;
   justify-self: end;
   font-family: "Josefin Slab", serif;
-  margin: 0px;
+  margin: 10px;
+  font-weight: var(--Resarcher-font-weight-value);
+  font-size: var(--Resarcher-font-size-value);
+  color: #f38f10;
+  opacity: var(--Resarcher-opacity-value);
 }
 .keyWords2 h1:nth-child(2) {
-  color: white;
   justify-self: start;
   font-family: "Lemonada";
-  margin: 0px;
+  margin: 10px;
+  font-weight: var(--Team-building-font-weight-value);
+  font-size: var(--Team-building-font-size-value);
+  color: #f38f10;
+  opacity: var(--Team-building-opacity-value);
 }
 .keyWords3 h1 {
-  color: white;
   justify-self: center;
   font-family: "Bodoni Moda", serif;
-  margin: 0px;
+  margin: 10px;
+  font-weight: var();
+  font-size: var(--Comunication-font-size-value);
+  color: #f38f10;
+  opacity: var(--Comunication-opacity-value);
 }
 .keyWords4 h1:nth-child(1) {
-  color: white;
   justify-self: end;
   font-family: "Open Sans", sans-serif;
-  font-weight: 900;
-  margin: 0px;
+  font-size: var(--Creativity-font-size-value);
+  color: #f38f10;
+
+  margin: 10px;
+  font-weight: var(--Creativity-font-weight-value);
+  opacity: var(--Creativity-opacity-value);
 }
 .keyWords4 h1:nth-child(2) {
-  color: white;
   justify-self: center;
   font-family: "Lemonada";
-  font-size: 35px;
-  margin: 0px;
+
+  margin: 10px;
+  font-weight: var(--Self-learning-font-weight-value);
+  font-size: var(--Self-learning-font-size-value);
+  color: #f38f10;
+  opacity: var(--Self-learning-opacity-value);
 }
 .keyWords4 h1:nth-child(3) {
-  color: white;
   justify-self: start;
   font-family: "Bodoni Moda", serif;
-  margin: 0px;
+  margin: 10px;
+  font-weight: var(--Active-listening-font-weight-value);
+  font-size: var(--Active-listening-font-size-value);
+  color: #f38f10;
+  opacity: var(--Active-listening-opacity-value);
 }
 .keyWords5 h1:nth-child(1) {
-  color: white;
+  color: #42f5d8;
   justify-self: start;
   font-family: "Open Sans", sans-serif;
-  font-weight: 900;
-  margin: 0px;
+  font-size: var(--SCRUM-font-size-value);
+
+  margin: 10px;
+  font-weight: var(--SCRUM-font-weight-value);
+  opacity: var(--SCRUM-opacity-value);
 }
 .keyWords5 h1:nth-child(2) {
-  color: white;
+  color: #42f5d8;
   justify-self: center;
-  font-family: "Josefin Slab", serif;
+  font-family: "Roboto Mono", monospace;
   font-size: 70px;
-  margin: 0px;
+  margin: 10px;
+  font-weight: var(--Github-font-weight-value);
+  font-size: var(--Github-font-size-value);
+  opacity: var(--Github-opacity-value);
 }
 .keyWords5 h1:nth-child(3) {
-  color: white;
+  color: #42f5d8;
   justify-self: end;
   font-family: "Lemonada";
-  margin: 0px;
+  margin: 10px;
+  font-weight: var(--Github-projects-font-weight-value);
+  font-size: var(--Github-projects-font-size-value);
+  opacity: var(--Github-projcts-opacity-value);
 }
 
 .keyWords6 h1:nth-child(1) {
-  color: white;
+  color: #00b2f1;
   justify-self: end;
   font-family: "Open Sans", sans-serif;
-  font-weight: 900;
-  margin: 0px;
+  font-weight: var(--NPM-font-weight-value);
+  font-size: var(--NPM-font-size-value);
+
+  margin: 10px;
+  opacity: var(--NPM-opacity-value);
 }
 .keyWords6 h1:nth-child(2) {
-  color: white;
+  color: #00b2f1;
   justify-self: center;
   font-family: "Bodoni Moda", serif;
-  margin: 0px;
+  margin: 10px;
+  font-weight: var(--Node-font-weight-value);
+  font-size: var(--Node-font-size-value);
+  opacity: var(--Node-opacity-value);
 }
 .keyWords6 h1:nth-child(3) {
-  color: white;
+  color: #00b2f1;
   justify-self: center;
   font-family: "Bodoni Moda", serif;
-  margin: 0px;
+  margin: 10px;
+  font-weight: var(--React-font-weight-value);
+  font-size: var(--React-font-size-value);
+  opacity: var(--React-opacity-value);
 }
 .keyWords6 h1:nth-child(4) {
-  color: white;
+  color: #00b2f1;
   justify-self: start;
-  font-family: "Josefin Slab", serif;
-  margin: 0px;
+  font-family: "Roboto Mono", monospace;
+  margin: 10px;
+  font-weight: var(--Bootstrap-font-weight-value);
+  font-size: var(--Bootstrap-font-size-value);
+  opacity: var(--Bootstrap-opacity-value);
 }
 .keyWords7 h1:nth-child(1) {
-  color: white;
+  color: #00b2f1;
   justify-self: end;
   font-family: "Bodoni Moda", serif;
-  margin: 0px;
+  margin: 10px;
+  font-weight: var(--REDUX-font-weight-value);
+  font-size: var(--REDUX-font-size-value);
+  opacity: var(--REDUX-opacity-value);
 }
 .keyWords7 h1:nth-child(2) {
-  color: white;
+  color: #00b2f1;
   justify-self: center;
   font-family: "Josefin Slab", serif;
-  margin: 0px;
+  margin: 10px;
+  font-weight: var(--MongoDB-font-weight-value);
+  font-size: var(--MongoDB-font-size-value);
+  opacity: var(--MongoDB-opacity-value);
 }
 .keyWords7 h1:nth-child(3) {
-  color: white;
+  color: #00b2f1;
   justify-self: center;
   font-family: "Bodoni Moda", serif;
-  margin: 0px;
+  margin: 10px;
+  font-weight: var(--PHP-font-weight-value);
+  font-size: var(--PHP-font-size-value);
+  opacity: var(--PHP-opacity-value);
 }
 .keyWords7 h1:nth-child(4) {
-  color: white;
+  color: #00b2f1;
   justify-self: start;
   font-family: "Lemonada";
-  margin: 0px;
+  margin: 10px;
+  font-weight: var(--mySQL-font-weight-value);
+  font-size: var(--mySQL-font-size-value);
+  opacity: var(--mySQL-opacity-value);
 }
+
 .keyWords8 h1:nth-child(1) {
-  color: white;
+  color: #00b2f1;
   justify-self: end;
   font-family: "Open Sans", sans-serif;
-  font-weight: 900;
-  margin: 0px;
+  font-size: var(--Express-font-size-value);
+  margin: 10px;
+  font-weight: var(--Express-font-weight-value);
+  opacity: var(--Express-opacity-value);
 }
 .keyWords8 h1:nth-child(2) {
-  color: white;
+  color: #00b2f1;
   justify-self: start;
   font-family: "Josefin Slab", serif;
-  margin: 0px;
+  margin: 10px;
+  font-weight: var(--NETLIFY-font-weight-value);
+  font-size: var(--NETLIFY-font-size-value);
+  opacity: var(--NETLIFY-opacity-value);
 }
 .keyWords9 h1 {
-  color: white;
+  color: #00b2f1;
   justify-self: center;
   font-family: "Lemonada";
-  margin: 0px;
+  margin: 10px;
+  font-weight: var(--HEROKU-font-weight-value);
+  font-size: var(--HEROKU-font-size-value);
+  opacity: var(--HEROKU-opacity-value);
 }

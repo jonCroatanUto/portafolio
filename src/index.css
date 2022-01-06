@@ -26,8 +26,75 @@ code {
   --animation-design-font-H1-font-size: 50px;
   --contact-stack-font-H1-font-size: 90px;
   --me-stack-font-H1-font-size: 90px;
-
   --global-text-color: rgb(0, 0, 0);
   --global-primary-title-size: 2rem;
+
+  /* about me font opacity */
+  --Growth-opacity-value: 0.5;
+  --Resarcher-opacity-value: 0.9;
+  --Team-building-opacity-value: 0.8;
+  --Comunication-opacity-value: 0.8;
+  --Creativity-opacity-value: 0.9;
+  --Self-learning-opacity-value: 0.5;
+  --Active-listening-opacity-value: 0.5;
+  --SCRUM-opacity-value: 0.5;
+  --Github-opacity-value: 0.5;
+  --Github-projcts-opacity-value: 0.5;
+  --NPM-opacity-value: 0.5;
+  --Node-opacity-value: 0.5;
+  --React-opacity-value: 0.5;
+  --Bootstrap-opacity-value: 0.5;
+  --REDUX-opacity-value: 0.5;
+  --MongoDB-opacity-value: 0.5;
+  --PHP-opacity-value: 0.5;
+  --mySQL-opacity-value: 0.5;
+  --Express-opacity-value: 0.5;
+  --NETLIFY-opacity-value: 0.5;
+  --HEROKU-opacity-value: 0.5;
+
+  /* about me font size */
+  --Growth-font-size-value: 100px;
+  --Resarcher-font-size-value: 100px;
+  --Team-building-font-size-value: 100px;
+  --Comunication-font-size-value: 100px;
+  --Creativity-font-size-value: 100px;
+  --Self-learning-font-size-value: 100px;
+  --Active-listening-font-size-value: 100px;
+  --SCRUM-font-size-value: 100px;
+  --Github-font-size-value: 100px;
+  --Github-projects-font-size-value: 100px;
+  --NPM-font-size-value: 100px;
+  --Node-font-size-value: 100px;
+  --React-font-size-value: 100px;
+  --Bootstrap-font-size-value: 100px;
+  --REDUX-font-size-value: 100px;
+  --MongoDB-font-size-value: 100px;
+  --PHP-font-size-value: 100px;
+  --mySQL-font-size-value: 100px;
+  --Express-font-size-value: 100px;
+  --NETLIFY-font-size-value: 100px;
+  --HEROKU-font-size-value: 100px;
+
+  /* about me font weight */
+  --Growth-font-weight-value: 100;
+  --Resarcher-font-weight-value: 100;
+  --Team-building-font-weight-value: 100;
+  --Comunication-font-weight-value: 100;
+  --Creativity-font-weight-value: 100;
+  --Self-learning-font-weight-value: 100;
+  --Active-listening-font-weight-value: 100;
+  --SCRUM-font-weight-value: 100;
+  --Github-font-weight-value: 100;
+  --Github-projects-font-weight-value: 100;
+  --NPM-font-weight-value: 100;
+  --Node-font-weight-value: 100;
+  --React-font-weight-value: 100;
+  --Bootstrap-font-weight-value: 100;
+  --REDUX-font-weight-value: 100;
+  --MongoDB-font-weight-value: 100;
+  --PHP-font-weight-value: 100;
+  --mySQL-font-weight-value: 100;
+  --Express-font-weight-value: 100;
+  --NETLIFY-font-weight-value: 100;
+  --HEROKU-font-weight-value: 100;
 }
-/* animations */
