@@ -7,9 +7,7 @@
   left: 5%;
   top: 20%;
 }
-/* .keyWords1 h1:hover {
-  font-variation-settings: "wght" 700;
-} */
+
 /* each row it is a float group */
 .keyWords1 {
   display: grid;
@@ -262,4 +260,12 @@
   font-variation-settings: "wght" 100;
   font-size: var(--HEROKU-font-size-value);
   opacity: var(--HEROKU-opacity-value);
+}
+
+.closerDiv {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0px;
+  top: 0px;
 }

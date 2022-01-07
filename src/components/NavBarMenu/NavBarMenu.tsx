@@ -8,7 +8,7 @@ function NavBarMenu() {
   const [isHide, setIsHide] = useState(true);
   const location = useLocation();
   useEffect(() => {
-    if (location.pathname != "/") navBarMenu(location.pathname);
+    if (location.pathname !== "/") navBarMenu(location.pathname);
   }, []);
   const globalCSSvariables = document.body.style;
   const navegate = useNavigate();

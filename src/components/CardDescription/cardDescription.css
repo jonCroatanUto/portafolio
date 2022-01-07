@@ -1,0 +1,13 @@
+.cardDescription {
+  background-color: var(--global-color);
+  padding: 20px;
+  position: fixed;
+  max-width: 80%;
+  font-family: "Bodoni Moda", serif;
+  font-weight: 500;
+  font-size: 30px;
+  left: 0px;
+  bottom: 0px;
+  border-top-right-radius: 40px;
+  border-bottom-right-radius: 40px;
+}
