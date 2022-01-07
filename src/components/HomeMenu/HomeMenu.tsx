@@ -43,7 +43,7 @@ function HomeMenu() {
         onClick={() => navBarMenu("/fullStack")}
         onMouseOver={() => hover("--full-stack-font-H1-axis-weight", "700")}
         onMouseOut={() => hover("--full-stack-font-H1-axis-weight", "100")}
-        className="FullStackDeveloper"
+        className="FullStackDeveloper "
       >
         <h1>FULLSTACK </h1>
         <h1>DEVELOPER </h1>
@@ -56,7 +56,7 @@ function HomeMenu() {
         onMouseOut={() =>
           hover("--animation-design-font-H1-axis-weight", "100")
         }
-        className="motionGraphics"
+        className="motionGraphics "
       >
         <h1>MOTION</h1>
         <h1>GRAPHIC</h1>
@@ -74,14 +74,14 @@ function HomeMenu() {
         onClick={() => navBarMenu("/contact")}
         onMouseOver={() => hover("--contact-stack-font-H1-axis-weight", "900")}
         onMouseOut={() => hover("--contact-stack-font-H1-axis-weight", "100")}
-        className="contact"
+        className="contact "
       >
         <h1>CONTACT </h1>
       </div>
       <div
         onClick={backMainMenu}
         style={{ display: isHide === true ? "none" : "block" }}
-        className="menuBack"
+        className="menuBack "
       >
         <h1>back</h1>
       </div>
