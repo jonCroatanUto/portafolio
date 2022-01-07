@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import "./aboutme.css";
 import CardDescription from "../../components/CardDescription";
-import FavoriteIcon from "@mui/icons-material/Favorite";
 
 function AboutME() {
   const [display, setDisplay] = useState(false);
