@@ -7,11 +7,11 @@ import FullStack from "./pages/FullStack";
 import AnimationDesign from "./pages/AnimationDesign";
 import AboutME from "./pages/AboutME";
 import Contact from "./pages/Contact";
-import HomeMenu from "./components/HomeMenu";
+import NavBarMenu from "./components/NavBarMenu";
 function App() {
   return (
     <>
-      <HomeMenu />
+      <NavBarMenu />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/fullStack" element={<FullStack />} />

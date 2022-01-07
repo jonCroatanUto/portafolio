@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from "react";
 import { useLocation } from "react-router-dom";
-import "./homeMenu.css";
+import "./NavBarMenu.css";
 import { useNavigate } from "react-router-dom";
 
-function HomeMenu() {
+function NavBarMenu() {
   const [menuClassName, setMenuClassName] = useState("menu");
   const [isHide, setIsHide] = useState(true);
   const location = useLocation();
@@ -93,4 +93,4 @@ function HomeMenu() {
     </div>
   );
 }
-export default HomeMenu;
+export default NavBarMenu;
