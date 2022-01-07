@@ -1,10 +1,15 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
+import { useLocation } from "react-router-dom";
 import "./homeMenu.css";
 import { useNavigate } from "react-router-dom";
 
 function HomeMenu() {
   const [menuClassName, setMenuClassName] = useState("menu");
   const [isHide, setIsHide] = useState(true);
+  const location = useLocation();
+  useEffect(() => {
+    if (location.pathname != "/") navBarMenu(location.pathname);
+  }, []);
   const globalCSSvariables = document.body.style;
   const navegate = useNavigate();
 
