@@ -62,7 +62,7 @@
   margin: 10px;
   font-variation-settings: "wght" 100;
   font-size: var(--Growth-font-size-value);
-  color: #f38f10;
+  color: var(--global-soft-skills-color);
   opacity: var(--Growth-opacity-value);
 }
 
@@ -73,7 +73,7 @@
 
   font-variation-settings: "wght" 100;
   font-size: var(--Resarcher-font-size-value);
-  color: #f38f10;
+  color: var(--global-soft-skills-color);
   opacity: var(--Resarcher-opacity-value);
 }
 
@@ -84,7 +84,7 @@
 
   font-variation-settings: "wght" 100;
   font-size: var(--Team-building-font-size-value);
-  color: #f38f10;
+  color: var(--global-soft-skills-color);
   opacity: var(--Team-building-opacity-value);
 }
 .comunication {
@@ -95,14 +95,14 @@
 
   font-variation-settings: "wght" 100;
   font-size: var(--Comunication-font-size-value);
-  color: #f38f10;
+  color: var(--global-soft-skills-color);
   opacity: var(--Comunication-opacity-value);
 }
 .creativity {
   justify-self: end;
   font-family: "Open Sans", sans-serif;
   font-size: var(--Creativity-font-size-value);
-  color: #f38f10;
+  color: var(--global-soft-skills-color);
 
   margin: 10px;
 
@@ -117,7 +117,7 @@
 
   font-variation-settings: "wght" 100;
   font-size: var(--Self-learning-font-size-value);
-  color: #f38f10;
+  color: var(--global-soft-skills-color);
   opacity: var(--Self-learning-opacity-value);
 }
 .activeListening {
@@ -126,11 +126,11 @@
   margin: 10px;
   font-variation-settings: "wght" 100;
   font-size: var(--Active-listening-font-size-value);
-  color: #f38f10;
+  color: var(--global-soft-skills-color);
   opacity: var(--Active-listening-opacity-value);
 }
 .SCRUM {
-  color: #42f5d8;
+  color: var(--global-project-managers-tools-color);
   justify-self: start;
   font-family: "Open Sans", sans-serif;
   font-size: var(--SCRUM-font-size-value);
@@ -139,7 +139,7 @@
   opacity: var(--SCRUM-opacity-value);
 }
 .github {
-  color: #42f5d8;
+  color: var(--global-project-managers-tools-color);
   justify-self: center;
   font-family: "Roboto Mono", monospace;
   font-size: 70px;
@@ -149,7 +149,7 @@
   opacity: var(--Github-opacity-value);
 }
 .githubProjects {
-  color: #42f5d8;
+  color: var(--global-project-managers-tools-color);
   justify-self: end;
   font-family: "Lemonada";
   margin: 10px;
@@ -159,7 +159,7 @@
 }
 
 .NPM {
-  color: #00b2f1;
+  color: var(--global-hard-skills-color);
   justify-self: end;
   font-family: "Open Sans", sans-serif;
   font-variation-settings: "wght" 100;
@@ -169,7 +169,7 @@
   opacity: var(--NPM-opacity-value);
 }
 .nodeJs {
-  color: #00b2f1;
+  color: var(--global-hard-skills-color);
   justify-self: center;
   font-family: "Bodoni Moda", serif;
   margin: 10px;
@@ -179,7 +179,7 @@
   opacity: var(--Node-opacity-value);
 }
 .reactJs {
-  color: #00b2f1;
+  color: var(--global-hard-skills-color);
   justify-self: center;
   font-family: "Bodoni Moda", serif;
   margin: 10px;
@@ -188,7 +188,7 @@
   opacity: var(--React-opacity-value);
 }
 .bootstrap {
-  color: #00b2f1;
+  color: var(--global-hard-skills-color);
   justify-self: start;
   font-family: "Roboto Mono", monospace;
   margin: 10px;
@@ -197,7 +197,7 @@
   opacity: var(--Bootstrap-opacity-value);
 }
 .redux {
-  color: #00b2f1;
+  color: var(--global-hard-skills-color);
   justify-self: end;
   font-family: "Bodoni Moda", serif;
   margin: 10px;
@@ -207,7 +207,7 @@
   opacity: var(--REDUX-opacity-value);
 }
 .mongoDB {
-  color: #00b2f1;
+  color: var(--global-hard-skills-color);
   justify-self: center;
   font-family: "Josefin Slab", serif;
   margin: 10px;
@@ -216,7 +216,7 @@
   opacity: var(--MongoDB-opacity-value);
 }
 .PHP {
-  color: #00b2f1;
+  color: var(--global-hard-skills-color);
   justify-self: center;
   font-family: "Bodoni Moda", serif;
   margin: 10px;
@@ -225,7 +225,7 @@
   opacity: var(--PHP-opacity-value);
 }
 .mySQL {
-  color: #00b2f1;
+  color: var(--global-hard-skills-color);
   justify-self: start;
   font-family: "Lemonada";
   margin: 10px;
@@ -235,7 +235,7 @@
 }
 
 .expressJs {
-  color: #00b2f1;
+  color: var(--global-hard-skills-color);
   justify-self: end;
   font-family: "Open Sans", sans-serif;
   font-size: var(--Express-font-size-value);
@@ -244,7 +244,7 @@
   opacity: var(--Express-opacity-value);
 }
 .netlify {
-  color: #00b2f1;
+  color: var(--global-hard-skills-color);
   justify-self: start;
   font-family: "Josefin Slab", serif;
   margin: 10px;
@@ -253,7 +253,7 @@
   opacity: var(--NETLIFY-opacity-value);
 }
 .heroku {
-  color: #00b2f1;
+  color: var(--global-hard-skills-color);
   justify-self: center;
   font-family: "Lemonada";
   margin: 10px;
