@@ -5,22 +5,30 @@ import { getSelectedSkill } from "../../api";
 
 function CardDescription(prop: { keywordID: string }) {
   const { keywordID } = prop;
-  const [text, setText] = useState("");
+  const [skillName, setSkillName] = useState("");
+  const [description, setDescription] = useState("");
   function voteForSkill() {}
   useEffect(() => {
     getSelectedSkill(keywordID).then((res) => {
       const { data } = res;
       const { skill } = data;
-      setText(skill.description);
+      setDescription(skill.description);
+      setSkillName(skill.skill);
     });
   }, []);
   return (
-    <div className="cardDescription">
-      {text}
-      <button onClick={voteForSkill}>
-        <FavoriteIcon />
-      </button>
-    </div>
+    <>
+      <div className="cardDescription">
+        <h2>{skillName}</h2>
+        {description}
+        <div className="likeDiv">
+          <button className="likeButton" onClick={voteForSkill}>
+            <FavoriteIcon />
+          </button>
+          <p>Are you agree? Did you like?</p>
+        </div>
+      </div>
+    </>
   );
 }
 export default CardDescription;
