@@ -1,10 +1,14 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import "./aboutme.css";
 import CardDescription from "../../components/CardDescription";
+import { getAllSkills } from "../../api";
 
 function AboutME() {
   const [display, setDisplay] = useState(false);
   const [keyword, setKeyWord] = useState("");
+  useEffect(() => {
+    getAllSkills().then((res) => console.log(res));
+  }, []);
 
   const globalCSSvariables = document.body.style;
   function displayDescription(e: any) {
