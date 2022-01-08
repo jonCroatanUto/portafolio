@@ -1,2 +1,2 @@
-import { getAllSkills } from "./customApi";
-export { getAllSkills };
+import { getAllSkills, getSelectedSkill } from "./customApi";
+export { getAllSkills, getSelectedSkill };
