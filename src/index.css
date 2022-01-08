@@ -5,7 +5,6 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  /* background-color: #ffffff; */
   background-color: #0d0427;
 }
 
@@ -13,10 +12,21 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+h1 {
+  transition: 0.2s ease-out;
+  cursor: pointer;
+}
+.fontVariatonHover:hover {
+  font-variation-settings: "wght" 900;
+}
 :root {
   --global-font-family: Verdana, sans-serif;
   --global-font-p-size: 12px;
   --global-font-h1-size: 80px;
+  --global-color: #0affd1;
+  --global-soft-skills-color: #f38f10;
+  --global-hard-skills-color: #00b2f1;
+  --global-project-managers-tools-color: #42f5d8;
   --global-font-H1-axis-weight: 100;
   --full-stack-font-H1-axis-weight: 100;
   --animation-design-font-H1-axis-weight: 100;
@@ -26,8 +36,52 @@ code {
   --animation-design-font-H1-font-size: 50px;
   --contact-stack-font-H1-font-size: 90px;
   --me-stack-font-H1-font-size: 90px;
-
   --global-text-color: rgb(0, 0, 0);
   --global-primary-title-size: 2rem;
+
+  /* about me font opacity */
+  --Growth-opacity-value: 0.5;
+  --Resarcher-opacity-value: 0.5;
+  --Team-building-opacity-value: 0.5;
+  --Comunication-opacity-value: 0.5;
+  --Creativity-opacity-value: 0.5;
+  --Self-learning-opacity-value: 0.5;
+  --Active-listening-opacity-value: 0.5;
+  --SCRUM-opacity-value: 0.5;
+  --Github-opacity-value: 0.5;
+  --Github-projcts-opacity-value: 0.5;
+  --NPM-opacity-value: 0.5;
+  --Node-opacity-value: 0.5;
+  --React-opacity-value: 0.5;
+  --Bootstrap-opacity-value: 0.5;
+  --REDUX-opacity-value: 0.5;
+  --MongoDB-opacity-value: 0.5;
+  --PHP-opacity-value: 0.5;
+  --mySQL-opacity-value: 0.5;
+  --Express-opacity-value: 0.5;
+  --NETLIFY-opacity-value: 0.5;
+  --HEROKU-opacity-value: 0.5;
+
+  /* about me font size */
+  --Growth-font-size-value: 50px;
+  --Resarcher-font-size-value: 50px;
+  --Team-building-font-size-value: 40px;
+  --Comunication-font-size-value: 40px;
+  --Creativity-font-size-value: 40px;
+  --Self-learning-font-size-value: 40px;
+  --Active-listening-font-size-value: 40px;
+  --SCRUM-font-size-value: 40px;
+  --Github-font-size-value: 40px;
+  --Github-projects-font-size-value: 40px;
+  --NPM-font-size-value: 40px;
+  --Node-font-size-value: 40px;
+  --React-font-size-value: 40px;
+  --Bootstrap-font-size-value: 40px;
+  --REDUX-font-size-value: 40px;
+  --MongoDB-font-size-value: 40px;
+  --PHP-font-size-value: 40px;
+  --mySQL-font-size-value: 40px;
+  --Express-font-size-value: 40px;
+  --NETLIFY-font-size-value: 40px;
+  --HEROKU-font-size-value: 40px;
 }
-/* animations */

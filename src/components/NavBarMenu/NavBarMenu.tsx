@@ -1,10 +1,15 @@
-import React, { useState } from "react";
-import "./homeMenu.css";
+import React, { useState, useEffect } from "react";
+import { useLocation } from "react-router-dom";
+import "./NavBarMenu.css";
 import { useNavigate } from "react-router-dom";
 
-function HomeMenu() {
+function NavBarMenu() {
   const [menuClassName, setMenuClassName] = useState("menu");
   const [isHide, setIsHide] = useState(true);
+  const location = useLocation();
+  useEffect(() => {
+    if (location.pathname !== "/") navBarMenu(location.pathname);
+  }, []);
   const globalCSSvariables = document.body.style;
   const navegate = useNavigate();
 
@@ -43,7 +48,7 @@ function HomeMenu() {
         onClick={() => navBarMenu("/fullStack")}
         onMouseOver={() => hover("--full-stack-font-H1-axis-weight", "700")}
         onMouseOut={() => hover("--full-stack-font-H1-axis-weight", "100")}
-        className="FullStackDeveloper"
+        className="FullStackDeveloper "
       >
         <h1>FULLSTACK </h1>
         <h1>DEVELOPER </h1>
@@ -56,7 +61,7 @@ function HomeMenu() {
         onMouseOut={() =>
           hover("--animation-design-font-H1-axis-weight", "100")
         }
-        className="motionGraphics"
+        className="motionGraphics "
       >
         <h1>MOTION</h1>
         <h1>GRAPHIC</h1>
@@ -74,18 +79,18 @@ function HomeMenu() {
         onClick={() => navBarMenu("/contact")}
         onMouseOver={() => hover("--contact-stack-font-H1-axis-weight", "900")}
         onMouseOut={() => hover("--contact-stack-font-H1-axis-weight", "100")}
-        className="contact"
+        className="contact "
       >
         <h1>CONTACT </h1>
       </div>
       <div
         onClick={backMainMenu}
         style={{ display: isHide === true ? "none" : "block" }}
-        className="menuBack"
+        className="menuBack "
       >
         <h1>back</h1>
       </div>
     </div>
   );
 }
-export default HomeMenu;
+export default NavBarMenu;

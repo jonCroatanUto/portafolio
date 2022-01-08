@@ -1,0 +1,271 @@
+/* generate a grid */
+.keyWordsBox {
+  position: absolute;
+  display: grid;
+  grid-template-rows: repeat(9, auto);
+  width: 70%;
+  left: 5%;
+  top: 20%;
+}
+
+/* each row it is a float group */
+.keyWords1 {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-auto-columns: minmax(min-content, max-content);
+}
+.keyWords2 {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 2rem;
+}
+.keyWords3 {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+.keyWords4 {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 2rem;
+}
+.keyWords5 {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 2rem;
+}
+.keyWords6 {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-gap: 2rem;
+}
+.keyWords7 {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-gap: 2rem;
+}
+.keyWords8 {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 2rem;
+}
+.keyWords9 {
+  display: grid;
+  grid-template-columns: 1fr;
+  font-weight: 100;
+}
+
+/* asign difirent types */
+
+.growth {
+  justify-self: center;
+  font-family: "Josefin Slab", serif;
+  margin: 10px;
+  font-variation-settings: "wght" 100;
+  font-size: var(--Growth-font-size-value);
+  color: var(--global-soft-skills-color);
+  opacity: var(--Growth-opacity-value);
+}
+
+.resarcher {
+  justify-self: end;
+  font-family: "Josefin Slab", serif;
+  margin: 10px;
+
+  font-variation-settings: "wght" 100;
+  font-size: var(--Resarcher-font-size-value);
+  color: var(--global-soft-skills-color);
+  opacity: var(--Resarcher-opacity-value);
+}
+
+.teamBuilding {
+  justify-self: start;
+  font-family: "Lemonada";
+  margin: 10px;
+
+  font-variation-settings: "wght" 100;
+  font-size: var(--Team-building-font-size-value);
+  color: var(--global-soft-skills-color);
+  opacity: var(--Team-building-opacity-value);
+}
+.comunication {
+  justify-self: center;
+  font-family: "Bodoni Moda", serif;
+  margin: 10px;
+  letter-spacing: 50px;
+
+  font-variation-settings: "wght" 100;
+  font-size: var(--Comunication-font-size-value);
+  color: var(--global-soft-skills-color);
+  opacity: var(--Comunication-opacity-value);
+}
+.creativity {
+  justify-self: end;
+  font-family: "Open Sans", sans-serif;
+  font-size: var(--Creativity-font-size-value);
+  color: var(--global-soft-skills-color);
+
+  margin: 10px;
+
+  font-variation-settings: "wght" 100;
+  opacity: var(--Creativity-opacity-value);
+}
+.selfLearning {
+  justify-self: center;
+  font-family: "Lemonada";
+
+  margin: 10px;
+
+  font-variation-settings: "wght" 100;
+  font-size: var(--Self-learning-font-size-value);
+  color: var(--global-soft-skills-color);
+  opacity: var(--Self-learning-opacity-value);
+}
+.activeListening {
+  justify-self: start;
+  font-family: "Bodoni Moda", serif;
+  margin: 10px;
+  font-variation-settings: "wght" 100;
+  font-size: var(--Active-listening-font-size-value);
+  color: var(--global-soft-skills-color);
+  opacity: var(--Active-listening-opacity-value);
+}
+.SCRUM {
+  color: var(--global-project-managers-tools-color);
+  justify-self: start;
+  font-family: "Open Sans", sans-serif;
+  font-size: var(--SCRUM-font-size-value);
+  margin: 10px;
+  font-variation-settings: "wght" 100;
+  opacity: var(--SCRUM-opacity-value);
+}
+.github {
+  color: var(--global-project-managers-tools-color);
+  justify-self: center;
+  font-family: "Roboto Mono", monospace;
+  font-size: 70px;
+  margin: 10px;
+  font-variation-settings: "wght" 100;
+  font-size: var(--Github-font-size-value);
+  opacity: var(--Github-opacity-value);
+}
+.githubProjects {
+  color: var(--global-project-managers-tools-color);
+  justify-self: end;
+  font-family: "Lemonada";
+  margin: 10px;
+  font-variation-settings: "wght" 100;
+  font-size: var(--Github-projects-font-size-value);
+  opacity: var(--Github-projcts-opacity-value);
+}
+
+.NPM {
+  color: var(--global-hard-skills-color);
+  justify-self: end;
+  font-family: "Open Sans", sans-serif;
+  font-variation-settings: "wght" 100;
+  font-size: var(--NPM-font-size-value);
+
+  margin: 10px;
+  opacity: var(--NPM-opacity-value);
+}
+.nodeJs {
+  color: var(--global-hard-skills-color);
+  justify-self: center;
+  font-family: "Bodoni Moda", serif;
+  margin: 10px;
+  letter-spacing: 30px;
+  font-variation-settings: "wght" 100;
+  font-size: var(--Node-font-size-value);
+  opacity: var(--Node-opacity-value);
+}
+.reactJs {
+  color: var(--global-hard-skills-color);
+  justify-self: center;
+  font-family: "Bodoni Moda", serif;
+  margin: 10px;
+  font-variation-settings: "wght" 100;
+  font-size: var(--React-font-size-value);
+  opacity: var(--React-opacity-value);
+}
+.bootstrap {
+  color: var(--global-hard-skills-color);
+  justify-self: start;
+  font-family: "Roboto Mono", monospace;
+  margin: 10px;
+  font-variation-settings: "wght" 100;
+  font-size: var(--Bootstrap-font-size-value);
+  opacity: var(--Bootstrap-opacity-value);
+}
+.redux {
+  color: var(--global-hard-skills-color);
+  justify-self: end;
+  font-family: "Bodoni Moda", serif;
+  margin: 10px;
+  letter-spacing: 30px;
+  font-variation-settings: "wght" 100;
+  font-size: var(--REDUX-font-size-value);
+  opacity: var(--REDUX-opacity-value);
+}
+.mongoDB {
+  color: var(--global-hard-skills-color);
+  justify-self: center;
+  font-family: "Josefin Slab", serif;
+  margin: 10px;
+  font-variation-settings: "wght" 100;
+  font-size: var(--MongoDB-font-size-value);
+  opacity: var(--MongoDB-opacity-value);
+}
+.PHP {
+  color: var(--global-hard-skills-color);
+  justify-self: center;
+  font-family: "Bodoni Moda", serif;
+  margin: 10px;
+  font-variation-settings: "wght" 100;
+  font-size: var(--PHP-font-size-value);
+  opacity: var(--PHP-opacity-value);
+}
+.mySQL {
+  color: var(--global-hard-skills-color);
+  justify-self: start;
+  font-family: "Lemonada";
+  margin: 10px;
+  font-variation-settings: "wght" 100;
+  font-size: var(--mySQL-font-size-value);
+  opacity: var(--mySQL-opacity-value);
+}
+
+.expressJs {
+  color: var(--global-hard-skills-color);
+  justify-self: end;
+  font-family: "Open Sans", sans-serif;
+  font-size: var(--Express-font-size-value);
+  margin: 10px;
+  font-variation-settings: "wght" 100;
+  opacity: var(--Express-opacity-value);
+}
+.netlify {
+  color: var(--global-hard-skills-color);
+  justify-self: start;
+  font-family: "Josefin Slab", serif;
+  margin: 10px;
+  font-variation-settings: "wght" 100;
+  font-size: var(--NETLIFY-font-size-value);
+  opacity: var(--NETLIFY-opacity-value);
+}
+.heroku {
+  color: var(--global-hard-skills-color);
+  justify-self: center;
+  font-family: "Lemonada";
+  margin: 10px;
+  font-variation-settings: "wght" 100;
+  font-size: var(--HEROKU-font-size-value);
+  opacity: var(--HEROKU-opacity-value);
+}
+
+.closerDiv {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0px;
+  top: 0px;
+}
