@@ -32,3 +32,17 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
+.cardDescriptionMobile {
+  color: var(--global-color);
+  padding: 20px;
+  position: fixed;
+  max-width: 50%;
+  font-family: "Josefin Slab", serif;
+  font-weight: 500;
+  font-size: 30px;
+  left: 50%;
+  bottom: 0px;
+  border: 1px solid var(--global-color);
+  border-top-left-radius: 40px;
+  border-bottom-left-radius: 40px;
+}

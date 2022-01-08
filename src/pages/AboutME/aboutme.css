@@ -7,7 +7,14 @@
   left: 5%;
   top: 20%;
 }
-
+.mobileFont {
+  justify-self: start;
+  font-family: "Big Shoulders Display";
+  color: var(--global-color);
+  font-variation-settings: "wght" 100;
+  font-size: var(--Growth-font-size-value);
+  margin: 2%;
+}
 /* each row it is a float group */
 .keyWords1 {
   display: grid;
