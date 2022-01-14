@@ -5,7 +5,7 @@
   grid-template-rows: repeat(9, auto);
   width: 70%;
   left: 5%;
-  top: 20%;
+  top: 10%;
 }
 .mobileFont {
   justify-self: start;
@@ -65,23 +65,21 @@
 
 .growth {
   justify-self: center;
-  font-family: "Josefin Slab", serif;
+  font-family: "Josefin Slab";
   margin: 10px;
   font-variation-settings: "wght" 100;
   font-size: var(--Growth-font-size-value);
   color: var(--global-soft-skills-color);
-  opacity: var(--Growth-opacity-value);
 }
 
 .resarcher {
   justify-self: end;
-  font-family: "Josefin Slab", serif;
+  font-family: "Josefin Slab";
   margin: 10px;
 
   font-variation-settings: "wght" 100;
   font-size: var(--Resarcher-font-size-value);
   color: var(--global-soft-skills-color);
-  opacity: var(--Resarcher-opacity-value);
 }
 
 .teamBuilding {
@@ -92,7 +90,6 @@
   font-variation-settings: "wght" 100;
   font-size: var(--Team-building-font-size-value);
   color: var(--global-soft-skills-color);
-  opacity: var(--Team-building-opacity-value);
 }
 .comunication {
   justify-self: center;
@@ -103,7 +100,6 @@
   font-variation-settings: "wght" 100;
   font-size: var(--Comunication-font-size-value);
   color: var(--global-soft-skills-color);
-  opacity: var(--Comunication-opacity-value);
 }
 .creativity {
   justify-self: end;
@@ -114,7 +110,6 @@
   margin: 10px;
 
   font-variation-settings: "wght" 100;
-  opacity: var(--Creativity-opacity-value);
 }
 .selfLearning {
   justify-self: center;
@@ -125,7 +120,6 @@
   font-variation-settings: "wght" 100;
   font-size: var(--Self-learning-font-size-value);
   color: var(--global-soft-skills-color);
-  opacity: var(--Self-learning-opacity-value);
 }
 .activeListening {
   justify-self: start;
@@ -134,7 +128,6 @@
   font-variation-settings: "wght" 100;
   font-size: var(--Active-listening-font-size-value);
   color: var(--global-soft-skills-color);
-  opacity: var(--Active-listening-opacity-value);
 }
 .SCRUM {
   color: var(--global-project-managers-tools-color);
@@ -143,7 +136,6 @@
   font-size: var(--SCRUM-font-size-value);
   margin: 10px;
   font-variation-settings: "wght" 100;
-  opacity: var(--SCRUM-opacity-value);
 }
 .github {
   color: var(--global-project-managers-tools-color);
@@ -153,7 +145,6 @@
   margin: 10px;
   font-variation-settings: "wght" 100;
   font-size: var(--Github-font-size-value);
-  opacity: var(--Github-opacity-value);
 }
 .githubProjects {
   color: var(--global-project-managers-tools-color);
@@ -162,7 +153,6 @@
   margin: 10px;
   font-variation-settings: "wght" 100;
   font-size: var(--Github-projects-font-size-value);
-  opacity: var(--Github-projcts-opacity-value);
 }
 
 .NPM {
@@ -173,7 +163,6 @@
   font-size: var(--NPM-font-size-value);
 
   margin: 10px;
-  opacity: var(--NPM-opacity-value);
 }
 .nodeJs {
   color: var(--global-hard-skills-color);
@@ -183,7 +172,6 @@
   letter-spacing: 30px;
   font-variation-settings: "wght" 100;
   font-size: var(--Node-font-size-value);
-  opacity: var(--Node-opacity-value);
 }
 .reactJs {
   color: var(--global-hard-skills-color);
@@ -192,7 +180,6 @@
   margin: 10px;
   font-variation-settings: "wght" 100;
   font-size: var(--React-font-size-value);
-  opacity: var(--React-opacity-value);
 }
 .bootstrap {
   color: var(--global-hard-skills-color);
@@ -201,7 +188,6 @@
   margin: 10px;
   font-variation-settings: "wght" 100;
   font-size: var(--Bootstrap-font-size-value);
-  opacity: var(--Bootstrap-opacity-value);
 }
 .redux {
   color: var(--global-hard-skills-color);
@@ -211,7 +197,6 @@
   letter-spacing: 30px;
   font-variation-settings: "wght" 100;
   font-size: var(--REDUX-font-size-value);
-  opacity: var(--REDUX-opacity-value);
 }
 .mongoDB {
   color: var(--global-hard-skills-color);
@@ -220,7 +205,6 @@
   margin: 10px;
   font-variation-settings: "wght" 100;
   font-size: var(--MongoDB-font-size-value);
-  opacity: var(--MongoDB-opacity-value);
 }
 .PHP {
   color: var(--global-hard-skills-color);
@@ -229,7 +213,6 @@
   margin: 10px;
   font-variation-settings: "wght" 100;
   font-size: var(--PHP-font-size-value);
-  opacity: var(--PHP-opacity-value);
 }
 .mySQL {
   color: var(--global-hard-skills-color);
@@ -238,7 +221,6 @@
   margin: 10px;
   font-variation-settings: "wght" 100;
   font-size: var(--mySQL-font-size-value);
-  opacity: var(--mySQL-opacity-value);
 }
 
 .expressJs {
@@ -248,7 +230,6 @@
   font-size: var(--Express-font-size-value);
   margin: 10px;
   font-variation-settings: "wght" 100;
-  opacity: var(--Express-opacity-value);
 }
 .netlify {
   color: var(--global-hard-skills-color);
@@ -257,7 +238,6 @@
   margin: 10px;
   font-variation-settings: "wght" 100;
   font-size: var(--NETLIFY-font-size-value);
-  opacity: var(--NETLIFY-opacity-value);
 }
 .heroku {
   color: var(--global-hard-skills-color);
@@ -266,7 +246,6 @@
   margin: 10px;
   font-variation-settings: "wght" 100;
   font-size: var(--HEROKU-font-size-value);
-  opacity: var(--HEROKU-opacity-value);
 }
 
 .closerDiv {

@@ -15,7 +15,12 @@ function AboutME() {
       setLoading(false);
     });
   }, []);
-
+  // useEffect(() => {
+  //   if (data.length > 0) {
+  //     console.log(data);
+  //     setLoading(false);
+  //   }
+  // }, [data]);
   // const globalCSSvariables = document.body.style;
   function displayDescription(e: any) {
     setKeyWordID(e.target.id);
@@ -32,10 +37,12 @@ function AboutME() {
   return (
     <>
       {loading ? (
-        <h1>loading</h1>
+        <h1 onClick={() => console.log(data)} style={{ color: "white" }}>
+          loading...
+        </h1>
       ) : (
         <>
-          <MediaQuery minWidth={1224}>
+          <MediaQuery minWidth={900}>
             <div className="keyWordsBox">
               <div className="keyWords1">
                 <h1
@@ -208,11 +215,12 @@ function AboutME() {
               <div></div>
             )}
           </MediaQuery>
-          <MediaQuery maxWidth={800}>
+          <MediaQuery maxWidth={900}>
             {data.map((skill) => {
               return (
                 <div className="keyWords9">
                   <h1
+                    key={skill._id}
                     id={skill._id}
                     onClick={(e) => displayDescription(e)}
                     className="mobileFont fontVariatonHover"
