@@ -19,6 +19,20 @@ h1 {
 .fontVariatonHover:hover {
   font-variation-settings: "wght" 900;
 }
+@media only screen and (max-width: 900px) {
+  :root {
+    --global-font-H1-axis-weight: 50px;
+    --full-stack-font-H1-axis-weight: 50px;
+    --animation-design-font-H1-axis-weight: 50px;
+    --contact-stack-font-H1-axis-weight: 50px;
+    --me-stack-font-H1-axis-weight: 50px;
+    --full-stack-font-H1-font-size: 100px;
+    --animation-design-font-H1-font-size: 25px;
+    --contact-stack-font-H1-font-size: 45px;
+    --me-stack-font-H1-font-size: 45px;
+  }
+}
+
 :root {
   --global-font-family: Verdana, sans-serif;
   --global-font-p-size: 12px;
@@ -38,29 +52,6 @@ h1 {
   --me-stack-font-H1-font-size: 90px;
   --global-text-color: rgb(0, 0, 0);
   --global-primary-title-size: 2rem;
-
-  /* about me font opacity */
-  --Growth-opacity-value: 0.5;
-  --Resarcher-opacity-value: 0.5;
-  --Team-building-opacity-value: 0.5;
-  --Comunication-opacity-value: 0.5;
-  --Creativity-opacity-value: 0.5;
-  --Self-learning-opacity-value: 0.5;
-  --Active-listening-opacity-value: 0.5;
-  --SCRUM-opacity-value: 0.5;
-  --Github-opacity-value: 0.5;
-  --Github-projcts-opacity-value: 0.5;
-  --NPM-opacity-value: 0.5;
-  --Node-opacity-value: 0.5;
-  --React-opacity-value: 0.5;
-  --Bootstrap-opacity-value: 0.5;
-  --REDUX-opacity-value: 0.5;
-  --MongoDB-opacity-value: 0.5;
-  --PHP-opacity-value: 0.5;
-  --mySQL-opacity-value: 0.5;
-  --Express-opacity-value: 0.5;
-  --NETLIFY-opacity-value: 0.5;
-  --HEROKU-opacity-value: 0.5;
 
   /* about me font size */
   --Growth-font-size-value: 50px;

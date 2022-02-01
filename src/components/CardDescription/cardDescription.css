@@ -11,6 +11,7 @@
   border: 1px solid var(--global-color);
   border-top-right-radius: 40px;
   border-bottom-right-radius: 40px;
+  max-height: 300px;
 }
 .likeButton {
   color: var(--global-color);
@@ -31,4 +32,18 @@
   margin: 50px;
   display: grid;
   grid-template-columns: 1fr 1fr;
+}
+.cardDescriptionMobile {
+  color: var(--global-color);
+  padding: 20px;
+  position: fixed;
+  max-width: 70%;
+  font-family: "Josefin Slab", serif;
+  font-weight: 500;
+  font-size: 20px;
+  left: 40%;
+  bottom: 0px;
+  border: 1px solid var(--global-color);
+  border-top-left-radius: 40px;
+  border-bottom-left-radius: 40px;
 }

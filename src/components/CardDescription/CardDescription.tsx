@@ -3,12 +3,14 @@ import "./cardDescription.css";
 import FavoriteIcon from "@mui/icons-material/Favorite";
 import { getSelectedSkill } from "../../api";
 
-function CardDescription(prop: { keywordID: string }) {
-  const { keywordID } = prop;
+function CardDescription(prop: { keywordID: string; mobile: Boolean }) {
+  const { keywordID, mobile } = prop;
+  const [className, setClassName] = useState("cardDescription");
   const [skillName, setSkillName] = useState("");
   const [description, setDescription] = useState("");
   function voteForSkill() {}
   useEffect(() => {
+    if (mobile) setClassName("cardDescriptionMobile");
     getSelectedSkill(keywordID).then((res) => {
       const { data } = res;
       const { skill } = data;
@@ -18,7 +20,7 @@ function CardDescription(prop: { keywordID: string }) {
   }, []);
   return (
     <>
-      <div className="cardDescription">
+      <div className={className}>
         <h2>{skillName}</h2>
         {description}
         <div className="likeDiv">
