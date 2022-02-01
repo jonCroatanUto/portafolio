@@ -1,10 +1,9 @@
 import React, { useEffect, useState } from "react";
-import Map from "../../images/map.png";
-import PLaceSearcher from "../../images/placeSearcher.png";
-import ThunderVibe from "../../images/thundervibe.png";
+
 import "./fullStackStyles.css";
 import { getAllWebs } from "../../api/index";
-import { Container, Row, Col, Card, Button } from "react-bootstrap";
+import { Row, Col, Card, Button } from "react-bootstrap";
+import FavoriteIcon from "@mui/icons-material/Favorite";
 function FullStack() {
   const [websData, setWebData] = useState<any[]>([]);
   const [loadingMovies, setLoadingMovies] = useState(true);
@@ -28,6 +27,11 @@ function FullStack() {
                   <Card className="bg-dark text-white">
                     <Card.Title>
                       <h1>{web.projectNames}</h1>
+                      <Card.ImgOverlay>
+                        <button className="likebutton">
+                          <FavoriteIcon style={{ color: "red" }} />
+                        </button>
+                      </Card.ImgOverlay>
                     </Card.Title>
                     <Card.Img variant="top" src={web.imageUrl} />
                     <Card.Body>
