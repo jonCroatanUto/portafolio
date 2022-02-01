@@ -37,9 +37,7 @@ function AboutME() {
   return (
     <>
       {loading ? (
-        <h1 onClick={() => console.log(data)} style={{ color: "white" }}>
-          loading...
-        </h1>
+        <h1 style={{ color: "white" }}>loading...</h1>
       ) : (
         <>
           <MediaQuery minWidth={900}>
