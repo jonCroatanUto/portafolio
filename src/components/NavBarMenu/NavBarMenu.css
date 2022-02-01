@@ -9,7 +9,7 @@
 }
 .navBarMenu {
   position: absolute;
-  margin-right: 50px;
+  margin: 50px;
   display: grid;
   grid-template-columns: 1fr;
   right: 0%;

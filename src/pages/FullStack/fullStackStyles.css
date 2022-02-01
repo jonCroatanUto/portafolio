@@ -1,0 +1,14 @@
+.fullStackContainer {
+  width: 80%;
+  margin: 2%;
+}
+.likebutton {
+  margin-left: 90%;
+  outline: none;
+  background-color: transparent;
+  border: none;
+  transition: ease-in 0.2s;
+}
+.likebutton:hover {
+  transform: scale(1.5);
+}
