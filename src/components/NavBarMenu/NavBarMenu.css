@@ -61,3 +61,47 @@
 .me {
   grid-auto-rows: minmax(min-content, max-content);
 }
+
+@media only screen and (max-width: 900px) {
+  .navBarMenu {
+    position: absolute;
+    margin-left: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    left: 0%;
+    top: 70%;
+    color: var(--global-color);
+    transform: scale(0.8);
+    grid-gap: 10px;
+  }
+  .FullStackDeveloper h1 {
+    font-family: "Big Shoulders Display";
+    font-size: 50px;
+    margin: 0px;
+    grid-auto-columns: min-content;
+    font-weight: var(--full-stack-font-H1-axis-weight);
+  }
+
+  .motionGraphics h1 {
+    font-family: "Lemonada";
+    font-size: 15px;
+    margin: 0px;
+    grid-auto-columns: min-content;
+    font-weight: var(--animation-design-font-H1-axis-weight);
+  }
+  .contact h1 {
+    font-family: "Bodoni Moda", serif;
+    font-size: 25px;
+    margin: 0px;
+    grid-auto-columns: min-content;
+    width: 100%;
+    font-weight: var(--contact-stack-font-H1-axis-weight);
+  }
+  .me h1 {
+    font-family: "Open Sans", sans-serif;
+    font-size: 25px;
+    grid-auto-columns: min-content;
+    margin: 0px;
+    font-weight: var(--me-stack-font-H1-axis-weight);
+  }
+}
