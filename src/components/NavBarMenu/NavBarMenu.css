@@ -63,20 +63,36 @@
 }
 
 @media only screen and (max-width: 900px) {
-  .navBarMenu {
+  .menu {
     position: absolute;
-    margin-left: 10px;
+    width: 70%;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    left: 0%;
-    top: 70%;
+    grid-template-columns: 0.6fr 1fr;
+    left: 25%;
+    top: 15%;
     color: var(--global-color);
-    transform: scale(0.8);
-    grid-gap: 10px;
   }
+
+  .navBarMenu {
+    position: fixed;
+    margin: 0px;
+    min-height: 10%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    left: 0px;
+    top: 80%;
+    color: var(--global-color);
+    /* transform: scale(0.8); */
+    grid-gap: 10px;
+    z-index: 100;
+    background-color: #0d0427;
+    width: 100%;
+    padding: 5%;
+  }
+
   .FullStackDeveloper h1 {
     font-family: "Big Shoulders Display";
-    font-size: 50px;
+    font-size: 40px;
     margin: 0px;
     grid-auto-columns: min-content;
     font-weight: var(--full-stack-font-H1-axis-weight);
@@ -84,24 +100,25 @@
 
   .motionGraphics h1 {
     font-family: "Lemonada";
-    font-size: 15px;
+    font-size: 10px;
     margin: 0px;
     grid-auto-columns: min-content;
     font-weight: var(--animation-design-font-H1-axis-weight);
   }
   .contact h1 {
     font-family: "Bodoni Moda", serif;
-    font-size: 25px;
-    margin: 0px;
+    font-size: 20px;
+    margin-top: 25%;
     grid-auto-columns: min-content;
     width: 100%;
     font-weight: var(--contact-stack-font-H1-axis-weight);
   }
   .me h1 {
+    margin-top: 25%;
     font-family: "Open Sans", sans-serif;
-    font-size: 25px;
+    font-size: 20px;
     grid-auto-columns: min-content;
-    margin: 0px;
+
     font-weight: var(--me-stack-font-H1-axis-weight);
   }
 }
