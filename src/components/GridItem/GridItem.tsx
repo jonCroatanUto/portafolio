@@ -12,7 +12,7 @@ function GridItem(props: { data: DataTypes }) {
   const { data } = props;
   const { title, url, imageUrl, description, votes, comments } = data;
   return (
-    <Col xs={10} md={6} lg={3}>
+    <Col xs={10} md={6} lg={4}>
       <Card className="bg-dark text-white">
         <Card.Title>
           <h1>{title}</h1>
@@ -26,7 +26,7 @@ function GridItem(props: { data: DataTypes }) {
         <Card.Body>
           <Card.Text>{description}</Card.Text>
           <a href={url}>
-            <Button variant="primary">visit {title}</Button>
+            <Button variant="primary">go to {title}</Button>
           </a>
         </Card.Body>
       </Card>
