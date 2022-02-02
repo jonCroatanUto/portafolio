@@ -2,8 +2,10 @@ import React, { useEffect, useState } from "react";
 
 import "./fullStackStyles.css";
 import { getAllWebs } from "../../api/index";
-import { Row, Col, Card, Button } from "react-bootstrap";
-import FavoriteIcon from "@mui/icons-material/Favorite";
+import { Row } from "react-bootstrap";
+// import FavoriteIcon from "@mui/icons-material/Favorite";
+import GridItem from "../../components/GridItem";
+
 function FullStack() {
   const [websData, setWebData] = useState<any[]>([]);
   const [loadingMovies, setLoadingMovies] = useState(true);
@@ -23,27 +25,28 @@ function FullStack() {
           <Row>
             {websData.map((web) => {
               return (
-                <Col xs={10} md={6} lg={3}>
-                  <Card className="bg-dark text-white">
-                    <Card.Title>
-                      <h1>{web.projectNames}</h1>
-                      <Card.ImgOverlay>
-                        <button className="likebutton">
-                          <FavoriteIcon style={{ color: "red" }} />
-                        </button>
-                      </Card.ImgOverlay>
-                    </Card.Title>
-                    <Card.Img variant="top" src={web.imageUrl} />
-                    <Card.Body>
-                      <Card.Text>{web.description}</Card.Text>
-                      <a href={web.url}>
-                        <Button variant="primary">
-                          visit {web.projectNames}
-                        </Button>
-                      </a>
-                    </Card.Body>
-                  </Card>
-                </Col>
+                <GridItem data={web} />
+                // <Col xs={10} md={6} lg={3}>
+                //   <Card className="bg-dark text-white">
+                //     <Card.Title>
+                //       <h1>{web.title}</h1>
+                //       <Card.ImgOverlay>
+                //         <button className="likebutton">
+                //           <FavoriteIcon style={{ color: "red" }} />
+                //         </button>
+                //       </Card.ImgOverlay>
+                //     </Card.Title>
+                //     <Card.Img variant="top" src={web.imageUrl} />
+                //     <Card.Body>
+                //       <Card.Text>{web.description}</Card.Text>
+                //       <a href={web.url}>
+                //         <Button variant="primary">
+                //           visit {web.projectNames}
+                //         </Button>
+                //       </a>
+                //     </Card.Body>
+                //   </Card>
+                // </Col>
               );
             })}
           </Row>
