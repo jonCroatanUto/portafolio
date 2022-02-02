@@ -22,8 +22,8 @@ function FullStack() {
       ) : (
         <div className="fullStackContainer">
           <Row>
-            {websData.map((web) => {
-              return <GridItem data={web} />;
+            {websData.map((web, index) => {
+              return <GridItem key={index} data={web} />;
             })}
           </Row>
         </div>

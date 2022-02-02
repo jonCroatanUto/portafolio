@@ -19,8 +19,8 @@ function AnimationDesign() {
       ) : (
         <div className="fullStackContainer">
           <Row>
-            {videoData.map((video) => {
-              return <GridItem data={video} />;
+            {videoData.map((video, index) => {
+              return <GridItem key={index + "video"} data={video} />;
             })}
           </Row>
         </div>

@@ -25,11 +25,11 @@ function GridItem(props: { data: DataTypes }) {
         <Card.Img variant="top" src={imageUrl} />
         <Card.Body>
           <Card.Text>{description}</Card.Text>
-          <a href={url}>
-            <Button variant="primary">go to {title}</Button>
-          </a>
         </Card.Body>
       </Card>
+      <a href={url}>
+        <Button variant="primary">go to {title}</Button>
+      </a>
     </Col>
   );
 }
