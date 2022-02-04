@@ -24,6 +24,7 @@ function Input({
           className="input-field"
           type={type}
           id={id}
+          name={id}
           value={value}
           placeholder={placeholder}
           onChange={handleChange}
