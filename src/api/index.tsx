@@ -1,7 +1,2 @@
-import {
-  getAllSkills,
-  getSelectedSkill,
-  getAllWebs,
-  getSelectedWeb,
-} from "./customApi";
-export { getAllSkills, getSelectedSkill, getAllWebs, getSelectedWeb };
+import { getAllSkills, getSelectedSkill, getAllProjects } from "./customApi";
+export { getAllSkills, getSelectedSkill, getAllProjects };

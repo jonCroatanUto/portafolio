@@ -1,50 +1,29 @@
 import React, { useEffect, useState } from "react";
 
 import "./fullStackStyles.css";
-import { getAllWebs } from "../../api/index";
-import { Row, Col, Card, Button } from "react-bootstrap";
-import FavoriteIcon from "@mui/icons-material/Favorite";
+import { getAllProjects } from "../../api/index";
+import { Row } from "react-bootstrap";
+import GridItem from "../../components/GridItem";
+
 function FullStack() {
   const [websData, setWebData] = useState<any[]>([]);
-  const [loadingMovies, setLoadingMovies] = useState(true);
+  const [loadingWebs, setLoadingWebs] = useState(true);
   useEffect(() => {
-    getAllWebs().then((res) => {
+    getAllProjects("webs").then((res) => {
       setWebData(res.data.data);
-      setLoadingMovies(false);
+      setLoadingWebs(false);
     });
   }, []);
 
   return (
     <>
-      {loadingMovies ? (
+      {loadingWebs ? (
         <h1 style={{ color: "white" }}>loading...</h1>
       ) : (
         <div className="fullStackContainer">
           <Row>
-            {websData.map((web) => {
-              return (
-                <Col xs={10} md={6} lg={3}>
-                  <Card className="bg-dark text-white">
-                    <Card.Title>
-                      <h1>{web.projectNames}</h1>
-                      <Card.ImgOverlay>
-                        <button className="likebutton">
-                          <FavoriteIcon style={{ color: "red" }} />
-                        </button>
-                      </Card.ImgOverlay>
-                    </Card.Title>
-                    <Card.Img variant="top" src={web.imageUrl} />
-                    <Card.Body>
-                      <Card.Text>{web.description}</Card.Text>
-                      <a href={web.url}>
-                        <Button variant="primary">
-                          visit {web.projectNames}
-                        </Button>
-                      </a>
-                    </Card.Body>
-                  </Card>
-                </Col>
-              );
+            {websData.map((web, index) => {
+              return <GridItem key={index} data={web} />;
             })}
           </Row>
         </div>

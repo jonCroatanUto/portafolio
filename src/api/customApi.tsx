@@ -13,16 +13,29 @@ export async function getSelectedSkill(id: String) {
     url: `${REACT_APP_SERVER_DIRECTION}skills/selectedSkill/${id}`,
   });
 }
-//web collection endpoints
-export async function getAllWebs() {
+//get all projects depending of the dicipline: webs or video animation
+export async function getAllProjects(dicipline: string) {
   return axios({
     method: "GET",
-    url: `${REACT_APP_SERVER_DIRECTION}webs`,
+    url: `${REACT_APP_SERVER_DIRECTION}${dicipline}`,
   });
 }
-export async function getSelectedWeb(id: String) {
-  return axios({
-    method: "GET",
-    url: `${REACT_APP_SERVER_DIRECTION}skills/selectedSkill/${id}`,
-  });
-}
+// export async function getSelectedWeb(id: String) {
+//   return axios({
+//     method: "GET",
+//     url: `${REACT_APP_SERVER_DIRECTION}skills/selectedSkill/${id}`,
+//   });
+// }
+//videos collection endpoints
+// export async function getAllVideos() {
+//   return axios({
+//     method: "GET",
+//     url: `${REACT_APP_SERVER_DIRECTION}videos`,
+//   });
+// }
+// export async function getSelectedVideo(id: String) {
+//   return axios({
+//     method: "GET",
+//     url: `${REACT_APP_SERVER_DIRECTION}skills/selectedSkill/${id}`,
+//   });
+// }
