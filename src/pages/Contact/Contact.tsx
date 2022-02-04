@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 import Input from "../../components/Input";
+import { sendEmailToJon } from "../../api";
+import "./contacStyles.css";
 function Contact() {
   const [email, setEmail] = useState({
     emailFrom: "",
@@ -8,23 +10,23 @@ function Contact() {
   });
   function sendEmail(e: React.FormEvent<HTMLFormElement>) {
     e.preventDefault();
-    console.log(email);
+    sendEmailToJon(email);
   }
-  function setingState(e: Event & { target: HTMLInputElement }) {
+  function settingState(e: Event & { target: HTMLInputElement }) {
     setEmail({
       ...email,
       [e.target.name]: e.target.value,
     });
   }
   return (
-    <div style={{ color: "white" }}>
+    <div className="formContactBox">
       <form onSubmit={sendEmail}>
         <Input
-          type="text"
+          type="email"
           id="emailFrom"
           placeholder="Write your email direction"
           value={email.emailFrom}
-          handleChange={(e) => setingState(e)}
+          handleChange={settingState}
           label="Write your email direction"
         />
         <Input
@@ -32,7 +34,7 @@ function Contact() {
           id="subject"
           placeholder="Write main subject of your message"
           value={email.subject}
-          handleChange={setingState}
+          handleChange={settingState}
           label="Write main subject of your message"
         />
         <Input
@@ -40,7 +42,7 @@ function Contact() {
           id="message"
           placeholder="Explain your history"
           value={email.message}
-          handleChange={setingState}
+          handleChange={settingState}
           label="Explain your history"
         />
         <button type="submit">send</button>

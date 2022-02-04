@@ -19,19 +19,6 @@ h1 {
 .fontVariatonHover:hover {
   font-variation-settings: "wght" 900;
 }
-@media only screen and (max-width: 900px) {
-  :root {
-    --global-font-H1-axis-weight: 50px;
-    --full-stack-font-H1-axis-weight: 50px;
-    --animation-design-font-H1-axis-weight: 50px;
-    --contact-stack-font-H1-axis-weight: 50px;
-    --me-stack-font-H1-axis-weight: 50px;
-    --full-stack-font-H1-font-size: 100px;
-    --animation-design-font-H1-font-size: 25px;
-    --contact-stack-font-H1-font-size: 45px;
-    --me-stack-font-H1-font-size: 45px;
-  }
-}
 
 :root {
   --global-font-family: Verdana, sans-serif;
