@@ -20,6 +20,25 @@ export async function getAllProjects(dicipline: string) {
     url: `${REACT_APP_SERVER_DIRECTION}${dicipline}`,
   });
 }
+
+//using a external api to send an email to my gmail
+
+export async function sendEmailToJon(email: {
+  emailFrom: string;
+  subject: string;
+  message: string;
+}) {
+  const { emailFrom, subject, message } = email;
+  return axios({
+    method: "POST",
+    url: "http://localhost:4000/user/contactWithJonEmail",
+    data: {
+      emailFrom: emailFrom,
+      subject: subject,
+      message: message,
+    },
+  });
+}
 // export async function getSelectedWeb(id: String) {
 //   return axios({
 //     method: "GET",
