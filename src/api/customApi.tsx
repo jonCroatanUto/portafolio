@@ -31,7 +31,7 @@ export async function sendEmailToJon(email: {
   const { emailFrom, subject, message } = email;
   return axios({
     method: "POST",
-    url: "http://localhost:4000/user/contactWithJonEmail",
+    url: `${REACT_APP_SERVER_DIRECTION}user/contactWithJonEmail`,
     data: {
       emailFrom: emailFrom,
       subject: subject,
