@@ -3,7 +3,7 @@
   padding: 20px;
   position: fixed;
   backdrop-filter: blur(10px);
-
+  width: 100%;
   font-family: "Josefin Slab", serif;
   font-weight: 500;
   font-size: 15px;
