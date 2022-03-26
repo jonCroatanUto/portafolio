@@ -8,7 +8,7 @@
   touch-action: manipulation;
   background-color: rgb(255, 255, 255);
   color: var(--global-color);
-  font-size: 24px;
+  font-size: 18px;
 }
 .bigger-input-field {
   background-color: #0d0427;
@@ -20,11 +20,11 @@
   -webkit-appearance: none;
   cursor: text;
   color: black;
-  padding: 35px;
-  font-size: 30px;
+  padding: 20px;
+  font-size: 15px;
   color: var(--global-color);
   /* transition: min-height 1s; */
-  min-height: 200px;
+  min-height: 100px;
 }
 .input-field {
   background-color: #0d0427;
@@ -36,13 +36,13 @@
   -webkit-appearance: none;
   cursor: text;
   color: black;
-  padding: 35px;
-  font-size: 30px;
+  padding: 20px;
+  font-size: 15px;
   color: var(--global-color);
 }
 .bigger-input-field:focus {
   outline: 0;
-  min-height: 500px;
+  min-height: 250px;
   border-bottom: 2px solid var(--global-color);
 }
 .input-field:focus {

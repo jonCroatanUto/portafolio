@@ -24,10 +24,10 @@ function Contact() {
         <Input
           type="email"
           id="emailFrom"
-          placeholder="Write your email direction"
+          placeholder="Write your email "
           value={email.emailFrom}
           handleChange={settingState}
-          label="Write your email direction"
+          label="Write your email "
         />
         <Input
           type="text"
