@@ -2,16 +2,14 @@
   color: var(--global-color);
   padding: 20px;
   position: fixed;
-  max-width: 80%;
+  backdrop-filter: blur(10px);
+
   font-family: "Josefin Slab", serif;
   font-weight: 500;
-  font-size: 30px;
+  font-size: 15px;
   left: 0px;
-  bottom: 0px;
-  border: 1px solid var(--global-color);
-  border-top-right-radius: 40px;
-  border-bottom-right-radius: 40px;
-  max-height: 300px;
+  top: 0px;
+  border-bottom: 1px solid var(--global-color);
 }
 .likeButton {
   color: var(--global-color);
@@ -19,17 +17,17 @@
   border: var(--global-color);
   border-radius: 25%;
   padding: 10px;
-  transform: scale(2);
+  transform: scale(1);
   transition: 0.2s ease-out;
   cursor: pointer;
   margin-right: 50px;
   justify-self: right;
 }
 .likeButton:hover {
-  transform: scale(4);
+  transform: scale(2);
 }
 .likeDiv {
-  margin: 50px;
+  margin: 10px;
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
@@ -37,12 +35,12 @@
   color: var(--global-color);
   padding: 20px;
   position: fixed;
-  max-width: 70%;
+
   font-family: "Josefin Slab", serif;
   font-weight: 500;
-  font-size: 20px;
+  font-size: 12px;
   left: 40%;
-  bottom: 0px;
+  top: 0px;
   border: 1px solid var(--global-color);
   border-top-left-radius: 40px;
   border-bottom-left-radius: 40px;

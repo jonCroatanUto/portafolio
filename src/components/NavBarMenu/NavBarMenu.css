@@ -2,7 +2,7 @@
   position: absolute;
   width: 70%;
   display: grid;
-  grid-template-columns: 0.6fr 1fr;
+  grid-template-columns: 0.4fr 1fr;
   left: 25%;
   top: 15%;
   color: var(--global-color);
@@ -65,9 +65,9 @@
 @media only screen and (max-width: 900px) {
   .menu {
     position: absolute;
-    width: 70%;
+    width: 100%;
     display: grid;
-    grid-template-columns: 0.6fr 1fr;
+    grid-template-columns: 1fr 1fr;
     left: 25%;
     top: 15%;
     color: var(--global-color);

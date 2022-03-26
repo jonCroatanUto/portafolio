@@ -18,26 +18,26 @@ function NavBarMenu() {
   }
 
   function navBarMenu(page: string) {
-    globalCSSvariables.setProperty("--full-stack-font-H1-font-size", "70px");
+    globalCSSvariables.setProperty("--full-stack-font-H1-font-size", "35px");
     globalCSSvariables.setProperty(
       "--animation-design-font-H1-font-size",
       "25px"
     );
-    globalCSSvariables.setProperty("--contact-stack-font-H1-font-size", "45px");
-    globalCSSvariables.setProperty("--me-stack-font-H1-font-size", "45px");
+    globalCSSvariables.setProperty("--contact-stack-font-H1-font-size", "22px");
+    globalCSSvariables.setProperty("--me-stack-font-H1-font-size", "22px");
     setIsHide(false);
     setMenuClassName("navBarMenu");
     navegate(page);
   }
 
   function backMainMenu() {
-    globalCSSvariables.setProperty("--full-stack-font-H1-font-size", "200px");
+    globalCSSvariables.setProperty("--full-stack-font-H1-font-size", "100px");
     globalCSSvariables.setProperty(
       "--animation-design-font-H1-font-size",
       "50px"
     );
-    globalCSSvariables.setProperty("--contact-stack-font-H1-font-size", "90px");
-    globalCSSvariables.setProperty("--me-stack-font-H1-font-size", "90px");
+    globalCSSvariables.setProperty("--contact-stack-font-H1-font-size", "45px");
+    globalCSSvariables.setProperty("--me-stack-font-H1-font-size", "45px");
     setIsHide(true);
     setMenuClassName("menu");
     navegate("/");

@@ -203,15 +203,15 @@ function AboutME() {
                   {data[20].skill}
                 </h1>
               </div>
+              {display ? (
+                <>
+                  <div className="closerDiv" onClick={closeDescription}></div>
+                  <CardDescription mobile={false} keywordID={keywordID} />
+                </>
+              ) : (
+                <div></div>
+              )}
             </div>
-            {display ? (
-              <>
-                <div className="closerDiv" onClick={closeDescription}></div>
-                <CardDescription mobile={false} keywordID={keywordID} />
-              </>
-            ) : (
-              <div></div>
-            )}
           </MediaQuery>
           <MediaQuery maxWidth={900}>
             {data.map((skill) => {
